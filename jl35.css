@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+img{
+	height:300px;
+	width:300px;
+	padding:10px;
+	border:black;
+	border-style:solid;
+	
+}
+li{
+	list-style-type:none;
+}
+a{
+	text-decoration:none;	
+}
+
+h1{
+	font-size:80px;
+    color:#400000;
+}
+h2{
+	font-size:50px;
+	color:#600;
+}
+p{
+	padding:5px;
+	font-size:25px;
+}
+h5{
+	font-size:30px;
+}
+body{
+	background-image:url(chocolate%20img.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family: 'Montserrat', sans-serif;
+}
+.alink{
+	color:brown;
+}
+.button {
+   
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button1 { background-color: green;} /* Green */
+.button2 {background-color: darkblue;} /* Blue */
+.button3 {background-color: red;} /* Red */ 
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button:hover{
+	 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	 }
+	 
+.buttons{
+	text-align:center;
+}
+h4{
+	font-size:32px;
+	color:#800000;
+
